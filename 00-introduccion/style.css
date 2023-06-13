@@ -1,0 +1,15 @@
+img {
+    width:200x ;
+    height: 300px;
+}
+
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   background-color: orange;
+   color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
