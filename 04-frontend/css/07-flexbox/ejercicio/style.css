@@ -17,25 +17,109 @@ main {
 
 .contenedor-carta {
   background-color: aliceblue;
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
   display: flex;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 8px 4px 20px 20px rgba(0, 0, 0, 0.366);
 }
 
-h2 {
-    color: black;
+.contenedor-izquierda {
+  background: linear-gradient(
+    180deg,
+    rgba(125, 35, 163, 1) 0%,
+    rgba(44, 44, 140, 1) 100%
+  );
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
 }
-.contenedor-izquierda 
-{
-    background-color: blueviolet;
-    width: 50%;
-   
+
+.contenedor-izquierda h2 {
+  color: aliceblue;
 }
-.contenedor-derecha{
-    background-color:aliceblue;
-    width: 50%;
-    border-radius: 20px;
+
+.circulo {
+  background: linear-gradient(
+    0deg,
+    rgba(125, 35, 163, 1) 0%,
+    rgba(44, 44, 140, 1) 100%
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-numero {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.circulo-cien {
+  color: rgba(178, 162, 162, 0.366);
+}
+
+.great {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contenedor-parrafo {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-parrafo p {
+  color: azure;
+}
+
+.contenedor-derecha {
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.contenedor-derecha h2 {
+  color: black;
+}
+
+.habilidad {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(179, 110, 110, 0.366);
+  padding: 12px;
+  border-radius: 10px;
+  color: rgb(224, 33, 33);
+  font-weight: 500;
+}
+
+.habilidad-izquierda {
+  display: flex;
+  gap: 8px;
+}
+
+.habilidad-derecha {
+  color: #000000;
+}
+.habilidad-derecha span:nth-child(1) {
+  color: rgb(0, 0, 0);
+}
+
+.habilidad-derecha span:nth-child(2) {
+  color: rgb(107, 105, 105);
 }
