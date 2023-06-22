@@ -1,0 +1,48 @@
+:root {
+  --color-principal: rgb(41, 41, 187);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: cadetblue;
+}
+header {
+  background-color: var(--color-principal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+main {
+  padding: 80px 20px 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: inline-block;
+  }
+
+  img {
+    display: none;
+  }
+}
