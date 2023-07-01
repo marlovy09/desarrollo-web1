@@ -1,0 +1,40 @@
+* {
+ box-sizing: border-box;
+}
+
+.box { 
+    border: 1px solid ;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    
+}
+.box1 {
+    border: 1px solid ;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    
+}
+.box2 {
+    border: 1px solid ;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    
+}
+
+.box3 {
+    border: 1px solid ;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    
+}
+

@@ -1,0 +1,31 @@
+* 
+{
+box-sizing: border-box;
+margin: 0px;
+}
+
+body 
+{
+ background-color: greenyellow;
+}
+h1 
+{
+    background-color: brown;
+    padding: 10px;
+    margin:10px;
+}
+p 
+{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    
+}
+a 
+{
+    background-color: beige;
+   padding: 10px;
+   margin: 10px;
+   display: none;
+}
